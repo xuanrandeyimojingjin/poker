@@ -1,0 +1,217 @@
+/* .animation{
+ 	width: 100px;
+ 	height: 100px;
+ 	background: red;
+ }
+ .zidan{
+ 	position: absolute;
+ 	left:10px;
+ 	height: 300px;
+ 	border: 1px solid black;
+ 	border-radius: 50%;
+ }  */
+ *{
+    margin:0;
+    padding:0;
+    list-style: none;
+ }
+body {
+    margin: 0;
+    background: url(img/bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.kepeidui{
+    width:158px;
+    height:36px;
+    background: url(img/peidui.png)no-repeat;
+    position: absolute;
+    left:200px;
+    top:500px;
+    z-index: 10;
+    font-size: 20px;
+     line-height: 36px;
+    text-align: center;
+    text-shadow:1px 1px 2px #952c34;
+color:rgba(4,1,0,1);
+}
+.zongpeidui{
+    width:158px;
+    height:36px;
+    background: url(img/peidui.png)no-repeat;
+    position: absolute;
+    left:940px;
+    top:500px;
+     z-index: 10;
+    font-size: 20px;
+     line-height: 36px;
+    text-align: center;
+    text-shadow:1px 1px 2px #952c34;
+color:rgba(4,1,0,1);
+}
+.meau{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left:25px;
+    top:150px;
+    font-size: 20px;
+    /*background: red;*/
+}
+.meau li{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-shadow:1px 1px 2px #952c34;
+    background: url(img/bg1.jpg)no-repeat -14px -234px;
+    color:rgba(4,1,0,1);
+}
+.meau li:hover{
+     background:url(img/bg1.jpg)  -14px -324px;
+    
+ }
+.meau .jieshao{
+    /*display: block;*/
+     background: url(img/2.png) no-repeat ;
+ background-size: cover;
+    width: 339px;
+    height:175px;
+    border-radius: 10px;
+    /*font-size: 18px;*/
+text-shadow:1px 1px 2px #952c34;
+color:rgba(4,1,0,1);
+display: none;
+/*opacity: 0;*/
+}
+.meau .jieshao h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(50,15,7,1);
+    margin-top: 10px;
+}
+.meau .jieshao p{
+    clear: both;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+.meau .jieshao span{
+   color: #000;
+    /*font-family: 700;*/
+}
+ .display{
+    width: 304px;
+    height: 60px;
+    position: absolute;
+    right: 60px;
+    top:60px;
+}
+.display div{
+    width: 140px;
+    height: 40px;
+    float: left;
+    background: url(img/peidui.png)no-repeat;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px 1px #575757 inset; 
+    line-height: 40px;  
+    text-align: center;
+    font-size: 16px;
+     font-weight: 700;
+     color: #6C6C67;
+     text-shadow:1px 1px 2px #4D4636;
+     z-index: 20;
+}
+.display .score{
+    float: left;
+
+}
+.display .time{
+    float: right;
+}
+ .font{
+     color: #D81F2C;
+}
+
+
+.zhuozi {
+    width: 690px;
+    height: 580px;
+    position: relative;
+    margin: 20px auto;
+    top: 0px;
+    left: 0;
+    /*right:0;
+ 	bottom:0;*/
+    background: rgba(100,30,14,0.5);
+     
+    border-radius: 10px;
+    box-shadow: 1px 5px 120px rgb(100,30,14)
+}
+
+.tishi{
+    width:200px;
+    height:100px;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+.pai {
+    width: 90px;
+    height: 120px;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+.zhuozi .move-right, .zhuozi .move-left {
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+.zhuozi .move-right {
+    /*display: none;*/
+    /*opacity: 0;*/
+    width: 109px;
+    height: 40px;
+    background: url(img/btnr.png);
+    bottom: 70px;
+    /*background: #f40;*/
+    transition: all 1.2s ease;
+    line-height: 40px;
+    text-align: center;
+    text-shadow:1px 1px 2px #952c34;
+color:rgba(4,1,0,1);
+
+}
+
+.zhuozi .move-left {
+    /*display: none;*/
+    width: 109px;
+    height: 40px;
+    background: url(img/btnr.png);
+    bottom: 20px;
+    /*background: #f40;*/
+    /*opacity: 0;*/
+    transition: all 1.2s ease;
+     line-height: 40px;
+    text-align: center;
+    text-shadow:1px 1px 2px #952c34;
+    color:rgba(4,1,0,1);
+}
